@@ -27,7 +27,7 @@ def set_background():
     page_bg_img = f"""
     <style>
     [data-testid="stAppViewContainer"] {{
-        background-image: url("data:image/jpeg;base64,{img}");
+        background-image: url("data:image/jpg;base64,{img}");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -36,9 +36,6 @@ def set_background():
     </style>
     """
     st.markdown(page_bg_img, unsafe_allow_html=True)
-
-# Function to set sidebar image
-
 
 # Function to set sidebar image
 def set_sidebar_image():

@@ -6,3 +6,4 @@ seaborn
 plotly.express
 scikit-learn
 streamlit_extras
+streamlit_option_menu

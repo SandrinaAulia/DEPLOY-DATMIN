@@ -37,7 +37,7 @@ def clustering_kmeans(data_modeling):
     st.markdown('''
     Terlihat pada grafik scatter plot di atas terdapat 3 cluster, di mana masing-masing cluster memiliki ciri khas:
     ''')
-    
+
     selected_tab = option_menu(
         "Dataframe Setiap Cluster",
         options=["Cluster 1", "Cluster 2", "Cluster 3"],
@@ -106,8 +106,7 @@ def main():
 
     st.markdown("---")
 
-    clustering_kmeans(data_modeling)  # Panggil fungsi ini setelah menampilkan dataset
-
+    clustering_kmeans(data_modeling)  
 
 if __name__ == "__main__":
     main()
