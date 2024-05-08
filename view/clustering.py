@@ -80,7 +80,7 @@ def clustering_kmeans(data_modeling):
         display_kmeans_cluster3(data_modeling)
     
     st.markdown('''
-    - Cluster 1 (Biru): Cluster ini menunjukkan pola pembelian di mana konsumen cenderung memiliki jumlah beli antar yang lebih tinggi dibandingkan dengan beli langsung. Ini menunjukkan preferensi kuat konsumen dalam cluster ini untuk melakukan pembelian secara antar.
+    - Cluster 1 (Hijau): Cluster ini menunjukkan pola pembelian di mana konsumen cenderung memiliki jumlah beli antar yang lebih tinggi dibandingkan dengan beli langsung. Ini menunjukkan preferensi kuat konsumen dalam cluster ini untuk melakukan pembelian secara antar.
     - Cluster 2 (Ungu): Meskipun pola pembelian dalam cluster ini mirip dengan cluster biru, namun jumlah pembelian baik langsung maupun antarnya cenderung lebih rendah. Ini menunjukkan bahwa konsumen dalam cluster ini mungkin lebih berhati-hati dalam melakukan pembelian atau memiliki kebutuhan yang lebih sedikit.
     - Cluster 3 (Kuning): Konsumen dalam cluster ini menunjukkan preferensi yang sangat kuat untuk melakukan pembelian secara langsung daripada secara antar. Ini menunjukkan bahwa konsumen dalam cluster ini mungkin lebih suka berbelanja secara langsung, mungkin karena alasan seperti mendapatkan produk lebih cepat atau dapat memeriksa produk secara langsung sebelum membeli.
                 ''')
@@ -99,7 +99,7 @@ def main():
     plt.ylabel('Total Beli Antar')
     st.pyplot(plt)
     st.markdown('''
-    - Cluster 1 (Biru): Cluster ini menunjukkan pola pembelian dengan total beli langsung berkisar antara 40 hingga 80 dan total beli antar berkisar antara 150 hingga sekitar 400. Ini menunjukkan bahwa konsumen dalam cluster ini cenderung memiliki jumlah beli antar yang lebih tinggi dibandingkan dengan beli langsung.
+    - Cluster 1 (Hijau): Cluster ini menunjukkan pola pembelian dengan total beli langsung berkisar antara 40 hingga 80 dan total beli antar berkisar antara 150 hingga sekitar 400. Ini menunjukkan bahwa konsumen dalam cluster ini cenderung memiliki jumlah beli antar yang lebih tinggi dibandingkan dengan beli langsung.
     - Cluster 2 (Ungu): Cluster ini mencakup konsumen dengan total beli langsung berkisar antara sekitar 50 hingga sekitar 70 dan total beli antar berkisar dari sekitar 200 hingga sekitar 350. Meskipun mirip dengan cluster biru, namun jumlah pembelian baik langsung maupun antarnya cenderung lebih rendah.
     - Cluster 3 (Kuning): Konsumen dalam cluster ini memiliki total beli langsung yang sangat tinggi, berkisar dari sekitar 90 hingga lebih dari 120, sementara total beli antarnya relatif rendah, hanya berkisaran dari sekitar150 hingga kurang dari250. Ini menunjukkan bahwa konsumen dalam cluster ini cenderung melakukan pembelian secara langsung daripada secara antarnya.
             ''')
